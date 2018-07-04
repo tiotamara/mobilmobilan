@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layHello"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:background="@drawable/header_bab">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:textSize="26dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="MATERI" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layHello">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardBab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgBab1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_bab" />
+
+                        <TextView
+                            android:id="@+id/txtBab1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="14dp"
+                            android:text="BAB I"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtJdlBab1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/txtBab1"
+                            android:layout_centerVertical="true"
+                            android:text="Ciri-Ciri Khusus Makhluk Hidup" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardBab2"
+                    android:layout_below="@+id/cardBab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgBab2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_bab" />
+
+                        <TextView
+                            android:id="@+id/txtBab2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="14dp"
+                            android:text="BAB II"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtJdlBab2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/txtBab2"
+                            android:layout_centerVertical="true"
+                            android:text="Perkembangan Makhluk Hidup" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardBab3"
+                    android:layout_below="@id/cardBab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgBab3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_bab" />
+
+                        <TextView
+                            android:id="@+id/txtBab3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="14dp"
+                            android:text="BAB III"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtJdlBab3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/txtBab3"
+                            android:layout_centerVertical="true"
+                            android:text="Keseimbangan Ekosistem" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardBab4"
+                    android:layout_below="@id/cardBab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgBab4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_bab" />
+
+                        <TextView
+                            android:id="@+id/txtBab4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="14dp"
+                            android:text="BAB IV"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtJdlBab4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/txtBab4"
+                            android:layout_centerVertical="true"
+                            android:text="Pelestarian Makhluk Hidup" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardBab5"
+                    android:layout_below="@id/cardBab4"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgBab5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_bab" />
+
+                        <TextView
+                            android:id="@+id/txtBab5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="14dp"
+                            android:text="BAB V"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtJdlBab5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/txtBab5"
+                            android:layout_centerVertical="true"
+                            android:text="Benda dan Sifatnya" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardBab6"
+                    android:layout_below="@id/cardBab5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgBab6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_bab" />
+
+                        <TextView
+                            android:id="@+id/txtBab6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="14dp"
+                            android:text="BAB VI"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtJdlBab6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/txtBab6"
+                            android:layout_centerVertical="true"
+                            android:text="Perubahan Benda" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

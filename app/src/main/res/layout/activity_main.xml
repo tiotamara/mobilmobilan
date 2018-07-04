@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.tio.projectkuis.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lineMateri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/linePilGan"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/materi" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Materi"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linePilGan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#86ff94"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignTop="@+id/lineEssay"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gbr_pilihanganda" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kuis Pilihan Ganda"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineEssay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#8eaeff"
+        android:orientation="vertical"
+        android:layout_marginBottom="43dp"
+        android:layout_above="@+id/textView"
+        android:layout_toEndOf="@+id/linePilGan"
+        android:layout_marginStart="9dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gbr_essay" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kuis Essay"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Back To School"
+        android:layout_marginTop="470dp"
+        android:textStyle="bold"
+        android:id="@+id/back"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Media Pembelajaran IPA kelas 6 SD"
+        android:layout_below="@+id/back"
+        android:textSize="12sp"
+        android:id="@+id/textView" />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Media Pembelajaran IPA</string>
+    <string name="bab1">
+        \u25CF Hewan dan tumbuhan memiliki ciri-ciri khusus untuk bertahan hidup dan memenuhi kebutuhan hidupnya. \n
+        \u25CF Kelelawar memiliki kemampuan ekolokasi untuk mencari makanan. \n
+        \u25CF Cecak dan tokek memiliki telapak kaki yang mempunyai guratan dan lengket \n
+        \u25CF sehingga bisa merayap di dinding dan langit-langit tanpa terjatuh. \n
+        \u25CF Bunglon bisa mengubah warna tubuhnya, memiliki lidah yang panjang dan lengket untuk menangkap mangsa. \n
+        \u25CF Unta memiliki punuk di punggung yang berisi lemak sebagai cadangan makanan. \n
+        \u25CF Penguin memiliki bulu tebal dan lapisan lemak di bawah kulit untuk melindungi diri dari rasa dingin. \n
+        \u25CF Teratai memiliki batang berongga udara yang berfungsi membawa oksigen ke batang dan akar. \n
+        \u25CF Bunga Raflesia dapat mengeluarkan bau busuk seperti bangkai untuk menarik lalat datang agar membantu proses penyerbukan. \n
+        \u25CF Kantong semar dan venus memiliki daun yang dapat menangkap serangga sebagai makanan. \n
+        \u25CF Kaktus memiliki batang yang tebal dan dapat menyimpan air sebagai bekal hidup di gurun pasir yang panas dan tandus. \n
+    </string>
+    <string name="bab2">
+        \u25CF Untuk melestarikan jenisnya, semua makhuk hidup mempunyai kemampuan berkembang biak. \n
+        \u25CF Berkembang biak artinya menghasilkan makhluk hidup baru dengan mewariskan sifat-sifat yang dimiliki kepada keturunannya. \n
+        \u25CF Perkembangan dan pertumbuhan manusia setelah dilahirkan diawali dari bayi, lalu bekembang menjadi anak-anak, remaja, dewasa, dan usia lanjut. \n
+        \u25CF Perubahan pada laki-laki antara lain telah mulai mimpi basah, dada terlihat bidang, tumbuh kumis dan jenggot, tumbuh jakun, suara lebih berat, organ kelamin membesar. \n
+        \u25CF Perubahan pada perempuan antara lain telah mengalami menstruasi (haid), payudara dan pinggul membesar, tumbuh rambut halus di bagian-bagian tertentu dari tubuh. \n
+        \u25CF Cara perkembangbiakan hewan dan tumbuhan ada dua macam, yaitu secara vegetatif (tidak kawin) dan secara generatif (kawin). \n
+        \u25CF Pembuahan adalah peristiwa peleburan atau bersatunya sel kelamin jantan dengan sel kelamin betina. \n
+        \u25CF Penyerbukan bunga dibedakan menjadi 4 macam, yaitu penyerbukan sendiri, penyerbukan tetangga, penyerbukan silang, dan penyerbukan bastar. \n
+        \u25CF Perkembangbiakan manusia terjadi melalui perkawinan, yaitu peleburan antara sperma (dari laki-laki) dengan sel telur/ovum (dari perempuan). \n
+        \u25CF Pembuahan menghasilkan zigot yang berkembang menjadi embrio. Embrio berkembang menjadi janin di dalam rahim wanita dan kemudian lahirlah bayi. \n
+    </string>
+    <string name="bab3">
+        \u25CF Berbagai kegiatan manusia yang dapat mempengaruhi ekosistem suatu lingkungan adalah sebagai berikut. \n
+        &#032;&#032; - Penebangan dan pembakaran hutan secara liar dapat menyebabkan suatu lingkungan menjadi tandus, banjir, dan kematian hewan dan tumbuhan hutan. \n
+        &#032;&#032; - Perburuan liar dapat menyebabkan musnahnya suatu jenis makhluk hidup. \n
+        &#032;&#032; - Penggunakan pupuk dan pestisida secara berlebihan dapat menyebabkan kematian dan terganggunya kehidupan makluk hidup yang lain. \n
+        &#032;&#032; - Pembuangan limbah dapat menyebabkan terjadinya pencemaran air, tanah, dan udara. \n
+        \u25CF Pemanfaatan bagian tumbuhan dan hewan yang dapat menganggu keseimbangan lingkungan adalah sebagai berikut. \n
+        &#032;&#032; - Penebangan beberapa jenis tumbuhan (pohon jati dan gaharu) yang dapat dimanfaatkan manusia dan tidak diikuti penanaman kembali. \n
+        &#032;&#032; - Mengambil tanaman anggrek di hutan-hutan secara keseluruhan menyebabkan jenis anggrek mengalami kepunahan. \n
+        &#032;&#032; - Memburu hewan di hutan (gajah, harimau, dan ular) sehingga jumlahnya menjadi berkurang. \n
+        &#032;&#032; - Memburu buaya untuk diambil kulitnya. \n
+    </string>
+    <string name="bab4">
+        \u25CF Jenis hewan dan tumbuhan yang hampir punah disebut hewan atau tumbuhan langka. \n
+        \u25CF Jenis hewan yang dilindungi oleh pemerintah yang hanya ada di kepulauan Indonesia antara lain burung jalak bali, burung cenderawasih, badak bercula satu, dan komodo. \n
+        \u25CF Tumbuhan langka yang ada di Indonesia, misalnya bunga bangkai, bunga Raflesia, dan cendana. \n
+        \u25CF Hewan dan tumbuhan perlu dilestarikan agar alam menjadi seimbang. \n
+        \u25CF Usaha-usaha yang harus dilakukan untuk melestarikan jenis hewan dan tumbuhan antara lain: (melindungi tempat hidupnya; mengembangbiakkan; melarang memelihara hewan yang dilindungi) \n
+        \u25CF Beberapa tempat perlindungan hewan dan tumbuhan antara lain: (cagar alam, suaka margasatwa, taman nasional, taman wisata alam, taman hutan raya) \n
+    </string>
+    <string name="bab5">
+        \u25CF Berdasarkan sifat penghantar panas, benda dapat dikelompokkan menjadi dua macam, yaitu konduktor dan isolator. \n
+        \u25CF Konduksi adalah peristiwa perpindahan panas dari zat yang bersuhu tinggi ke zat yang bersuhu rendah melalui suatu bahan penghantar. \n
+        \u25CF Konduktor panas adalah benda yang cepat atau dapat menghantarkan panas dengan baik. Contoh bahan konduktor panas adalah logam dan kaca. \n
+        \u25CF Isolator panas adalah benda yang lambat atau tidak dapat menghantarkan panas. \n
+        &#032;&#032; - Contoh bahan isolator panas adalah kayu, plastik atau ebonit, dan kain. \n
+        \u25CF Logam dan kaca bersifat konduktor sehingga digunakan untuk membuat alat-alat masak atau alat rumah tangga, seperti wajan, cerek, panci, dan setrika. \n
+        \u25CF Kayu, plastik, dan kain bersifat isolator sehingga digunakan untuk membuat alatalat rumah tangga, seperti: gagang sodet, gagang wajan, pegangan cerek, pegangan setrika, dan campel. \n
+    </string>
+    <string name="bab6">
+         \u25CF Faktor penyebab perubahan benda antara lain pelapukan, perkaratan, dan pembusukan. \n
+         \u25CF Pelapukan adalah proses perubahan benda menuju kehancuran. \n
+         \u25CF Faktor-faktor penyebab pelapukan benda dapat dibedakan sebagai berikut. \n
+        &#032;&#032; - Pelapukan biologi/organik, yaitu pelapukan karena faktor makhluk hidup. \n
+        &#032;&#032; - Pelapukan fisika/mekanik, yaitu pelapukan karena faktor alam. \n
+         \u25CF Perkaratan terjadi karena adanya reaksi kimia antara logam dengan air dan udara. \n
+         \u25CF Cara mencegah perkaratan antara lain dengan pengecatan atau membuat logam tetap kering. \n
+         \u25CF Pembusukan adalah gejala yang terjadi pada benda karena adanya pertumbuhandan aktivitas jamur dan bakteri. Cara mencegah pembusukan antara lain dengan pengeringan, pembekuan (pendinginan), pemanasan, pengasinan dan pemanisan, serta pemberian bahan pengawet. \n
+         \u25CF Macam-macam sifat bahan yaitu: keras, kuat, lentur, berat, dapat/tidak menyerap air. \n
+         \u25CF Logam bersifat keras, kuat, dan tidak tembus air. Logam banyak digunakan untuk membuat paku, pisau, sendok, dan kaleng. \n
+         \u25CF Kayu bersifat keras, kuat, dapat ditembus air, ringan, tidak berkarat, dan mudah dibentuk. Kayu banyak digunakan untuk membuat perabotan rumah tangga, seperti meja, kursi, dan lemari. \n
+         \u25CF Karet bersifat lentur, tidak tembus air, dan tidak mudah patah. Karet banyak digunakan untuk membuat ban. \n
+         \u25CF Plastik bersifat lentur, tidak tembus air, plastik yang keras mudah patah. Plastik banyak digunakan untuk membuat ember. \n
+         \u25CF Pemilihan bahan untuk pembuatan benda harus ada kesesuaian dengan tujuan penggunaan benda agar berfungsi dengan baik. \n
+    </string>
+</resources>
