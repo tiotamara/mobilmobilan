@@ -1,6 +1,7 @@
 package com.example.tio.projectkuis;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -31,6 +32,8 @@ public class KuisPilihanGanda extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kuis_pilihan_ganda);
 
+
+
         //menyambungkan antara variabel KuisPilihanGanda.java dengan id activity_kuis_pilihan_ganda
         mtvSkor = (TextView) findViewById(R.id.tvSkor);
         mtvSoal = (TextView) findViewById(R.id.tvSoal);
@@ -58,6 +61,23 @@ public class KuisPilihanGanda extends AppCompatActivity {
         });
     }
 
+    public void timers(int x){
+        Runnable r = new Runnable() {
+
+            @Override
+            public void run() {
+                // if you are redirecting from a fragment then use getActivity() as the context.
+                setKonten();
+
+            }
+        };
+
+        int waktu = soalPG.getTimer(x);
+        Handler h = new Handler();
+        // The Runnable will be executed after the given delay time
+        h.postDelayed(r, waktu);
+    }
+
     //method untuk mengambil dan update konten dari SoalPilihanGanda.java
     //kemudian disetting/ditempatkan pada tempat yang telah disediakan
     public void setKonten(){
@@ -81,6 +101,7 @@ public class KuisPilihanGanda extends AppCompatActivity {
             mrbPilihanJawaban3.setText(soalPG.getPilihanJawaban3(x));
             mrbPilihanJawaban4.setText(soalPG.getPilihanJawaban4(x));
             jawaban = soalPG.getJawabanBenar(x);
+            timers(x);
 
         }
         x++;

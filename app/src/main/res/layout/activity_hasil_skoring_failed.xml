@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.tio.projectkuis.HasilSkoring">
+
+    <ImageView
+        android:id="@+id/imageCongrats"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/failed"
+        android:layout_above="@+id/tvSkorAkhir"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvSkorAkhir"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:background="#b5fffe"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="SKOR : 100"
+        android:textColor="#000"
+        android:textSize="36sp"/>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="22dp"
+        android:text="HOME"
+        android:background="#f58686"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="29dp" />
+    <Button
+        android:id="@+id/btnCobaLagi"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Coba Lagi"
+        android:background="#f58686"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/btnMenu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="0dp" />
+
+</RelativeLayout>

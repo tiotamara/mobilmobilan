@@ -8,14 +8,50 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static java.lang.Integer.parseInt;
+
 public class HasilSkoring extends AppCompatActivity {
     TextView mtvHasilAkhir;
-    Button mbtnMenu;
+    Button mbtnMenu,btnCobaLagi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hasil_skoring);
+        String activity = getIntent().getStringExtra("activity");
+        String skorPilGan = getIntent().getStringExtra("skorAkhir");
+        String skorEssay = getIntent().getStringExtra("skorAkhir2");
+
+        if(activity.equals("PilihanGanda")){
+            if (parseInt(skorPilGan) > 70){
+                setContentView(R.layout.activity_hasil_skoring);
+            }else{
+                setContentView(R.layout.activity_hasil_skoring_failed);
+                btnCobaLagi = (Button) findViewById(R.id.btnCobaLagi);
+                btnCobaLagi.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent i = new Intent(HasilSkoring.this, KuisPilihanGanda.class);
+                        startActivity(i);
+                        finish();
+                    }
+                });
+            }
+        }else{
+            if (parseInt(skorEssay) > 70){
+                setContentView(R.layout.activity_hasil_skoring);
+            }else{
+                setContentView(R.layout.activity_hasil_skoring_failed);
+                btnCobaLagi = (Button) findViewById(R.id.btnCobaLagi);
+                btnCobaLagi.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent i = new Intent(HasilSkoring.this, KuisEssay.class);
+                        startActivity(i);
+                        finish();
+                    }
+                });
+            }
+        }
 
         mtvHasilAkhir = (TextView) findViewById(R.id.tvSkorAkhir);
         mbtnMenu = (Button) findViewById(R.id.btnMenu);

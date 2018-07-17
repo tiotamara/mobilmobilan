@@ -55,10 +55,28 @@ public class SoalPilihanGanda {
             "Lentur",
     };
 
+    private int timer[] = {
+            20000,
+            30000,
+            30000,
+            30000,
+            30000,
+            30000,
+            30000,
+            30000,
+            30000,
+            30000,
+    };
+
     //membuat getter untuk mengambil pertanyaan
     public String getPertanyaan(int x){
         String soal = pertanyaan[x];
         return soal;
+    }
+
+    public int getTimer(int x){
+        int timers = timer[x];
+        return timers;
     }
 
     //membuat getter untuk mengambil pilihan jawaban 1
