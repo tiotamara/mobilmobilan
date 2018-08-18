@@ -1,2 +1,2 @@
 # quiz-android-application
-quiz android application, kuis aplikasi android pilihan ganda dan essay
+quiz android application, aplikasi kuis berbasis android (pilihan ganda dan essay)
